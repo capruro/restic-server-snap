@@ -6,24 +6,24 @@ description: |
   This snap packages the REST server backend for Restic.
 
   **Configuration and Daemon Management**
-  
+
   To simplify management of the REST server daemon, a configuration file (`rest-server.conf`) is provided in the snap package. This file allows you to easily customize the behavior of the REST server without modifying the wrapper script or service definition.
-  
+
   **Location**
-  
+
   The configuration file is located at:
-  
-   ` /snap/restic-server/current/snap/local/rest-server.conf`
-  
+
+   `/snap/restic-server/current/snap/local/rest-server.conf`
+
   **Usage**
-  
+
   1. Edit the configuration file to set your desired options (such as data directory, authentication, TLS, etc.).
   2. After making changes, restart the daemon to apply the new configuration:
-  
+
        `sudo snap restart restic-server`
-  
+
   The wrapper script (`rest-server-wrapper.sh`) automatically loads and applies the settings from `rest-server.conf` when starting the REST server.
-  
+
   This approach makes it easy to manage and update the service configuration, ensuring changes are persistent and straightforward.
   distributions.
 
