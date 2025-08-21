@@ -6,14 +6,14 @@ To simplify management of the REST server daemon, a configuration file (`rest-se
 
 The configuration file is located at:
 
-  /snap/restic-server/current/snap/local/rest-server.conf
+  `/var/snap/restic-server/common/rest-server.conf`
 
 ### Usage
 
 1. Edit the configuration file to set your desired options (such as data directory, authentication, TLS, etc.).
 2. After making changes, restart the daemon to apply the new configuration:
 
-     sudo snap restart restic-server
+     `sudo snap restart restic-server`
 
 The wrapper script (`rest-server-wrapper.sh`) automatically loads and applies the settings from `rest-server.conf` when starting the REST server.
 
