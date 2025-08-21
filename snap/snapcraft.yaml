@@ -13,7 +13,7 @@ description: |
 
   The configuration file is located at:
 
-   `/snap/restic-server/current/snap/local/rest-server.conf`
+   `/var/snap/restic-server/common/rest-server.conf`
 
   **Usage**
 
