@@ -18,7 +18,7 @@ The configuration file is located at:
 The wrapper script (`rest-server-wrapper.sh`) automatically loads and applies the settings from `rest-server.conf` when starting the REST server.
 
 This approach makes it easy to manage and update the service configuration, ensuring changes are persistent and straightforward.
-distributions.</p>
+
 <h1 align="center">
   <img src="https://avatars1.githubusercontent.com/u/29598503?v=3&s=256" alt="restic-server">
   <br />
